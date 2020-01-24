@@ -193,22 +193,12 @@ public class Omok extends JFrame implements MouseListener, MouseMotionListener{
 	}
 	public void winCheck(int x, int y) {
 
-//		int count=0;
-//		int num=0;
+		int count=0;
+		ArrayList<Integer> checkX = new ArrayList<Integer>();
+		ArrayList<Integer> checkY = new ArrayList<Integer>();
 		for(int i=0; i<list.size(); i++) {
-			if(list.get(i).getIndexX()!=x && list.get(i).getIndexY()!=y)
-				System.out.println("X:"+list.get(i).getIndexX()+", x:"+x+" Y:"+list.get(i).getIndexY()+", y:"+y);
-//				if(list.get(i).getIndexY()==num                ) {
-//					count++;
-//					num++;
-//					if(count==5) {
-//						System.out.println("½Â¸®");
-//						win = true;
-//						return true;
-//					}
-//				}
-		}
-//		return false;
+			
+		}//for
 	}//winCheck
 
-}
+}//class
